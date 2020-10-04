@@ -11,9 +11,8 @@ public class CanvasUIFunctions : MonoBehaviour
         Debug.Log("Hello world!");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetScene(string sceneName)
     {
-        
+        SceneManager.LoadScene(sceneName);
     }
 }
